@@ -8,8 +8,7 @@
  body{
     font-family: Nunito, sans-serif;    
     background: linear-gradient(rgba(0,0,0, .50), rgba(0,0,0, .50) 100%), url(img/people.svg);    
-    background-size:cover;    
-   
+    background-size:cover;      
 }
 
 header #container{   
@@ -20,7 +19,6 @@ header #container{
     background: #5c41b5;
     color:white;
     padding-left: 15px;
-
     padding-right: 15px;
     width: 100%;
     position:relative;   
@@ -29,8 +27,7 @@ header #container{
 nav{     
     font-family: Nunito, sans-serif;
     font-size: 20px;    
-    padding: 6.5px;
-    
+    padding: 6.5px;   
 }
 
 nav a{
@@ -54,11 +51,9 @@ section{
     width: 40%;
     margin-top: 170px;   
     margin-bottom: 20px; 
-    
     padding: 5px;
     border-radius: 5px;
-    box-shadow: 0 0 8px 3px rgb(0 0 0 / 20%); 
-      
+    box-shadow: 0 0 8px 3px rgb(0 0 0 / 20%);      
 }
 
 #main{
@@ -67,13 +62,13 @@ section{
     align-items: center;
     flex-direction: column;
 }
+
 #button{
     padding: 4px;
     background-color: lawngreen;
     color: rgb(18, 56, 28);
     border-radius: 3px;
     font-size: 14px;
-
 }
 
 #button:hover{
@@ -105,9 +100,11 @@ footer{
     justify-content: center;
     color: rgb(170, 160, 160);
     margin-top: 200px;
-      
 }
 
+footer a{
+    color:rgb(170, 160, 160); 
+}
 .fab {
     font-size:20px; 
     color: rgb(170, 160, 160);
@@ -152,13 +149,15 @@ img{
     }
 
     footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width:100%;
     margin-top: 200px;
-  
+    padding: 2%;
     }
 }
-
-
 
 @media screen and (min-width: 1000px){
     

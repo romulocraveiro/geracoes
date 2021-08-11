@@ -88,6 +88,10 @@ footer{
    
 }
 
+footer a{
+    color:rgb(170, 160, 160); 
+}
+
 .fab {
     font-size:20px; 
     color: rgb(170, 160, 160);
@@ -100,19 +104,42 @@ img{
 
 @media screen and (max-width:700px){ /*Condição para que sejam aplicadas as próximas linhas. Caso contrário, volta para as configurações padrão.*/
     
+    header{
+        width: inherit;
+        font-size:10px;  
+    }
+    
+    nav {
+        width:inherit;
+    }
+
+    nav a{
+        padding-left: 20%;
+    }
+    
+    nav a:hover{
+        padding: 6%;
+    }
+    
     #main{
         
-        display:initial; 
-        margin-left: 5px ;     
+        width: 90%;
+        margin: 10%;     
     }
 
-    section{
-        width: 100%;
-    }
-
-    #txtano{
+        #txtano{
         width: 50%
     }
+
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        margin-top: 100px;
+        padding: 2%;
+        }
 }
 
 @media screen and (min-width: 1000px){
