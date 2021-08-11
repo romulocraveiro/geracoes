@@ -30,7 +30,6 @@
 * _One can use the tag &nbsp with a semi-colon to add space in a text. I used it to separate the pipe character from the texts on the footer._
 
   
-
 ## Tecnologias / Technologies
 
 * CSS
