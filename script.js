@@ -35,7 +35,7 @@ function mostrar(){
     }
     
     else if(ano>=2010){
-        geracao = '<strong>A sua geração é a Alpha<strong> (nascidos a partir do ano de 2010). Em 2021, ainda são crianças, e por isso suas características geracionais só serão percebidas daqui a alguns anos. Porém, acredita-se que serão orientados à família, assim como o são aqueles que os criam, os da geração X e Y.'
+        geracao = '<strong>A sua geração é a Alpha</strong> (nascidos a partir do ano de 2010). Em 2021, ainda são crianças, e por isso suas características geracionais só serão percebidas daqui a alguns anos. Porém, acredita-se que serão orientados à família, assim como o são aqueles que os criam, os da geração X e Y.'
         img.setAttribute('src', 'img/alpha.jpg');
 
     }else{
