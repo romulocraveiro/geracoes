@@ -6,7 +6,7 @@ function mostrar(){
     var geracao = '';
 
     if(ano >=1883 && ano <=1900 ){
-        geracao = 'Conhecida como a <strong>Geração Perdida<strong> (nascidos entre 1883 e 1900), sua geração nasceu no período da construção da Torre Eiffel e do surgimento da psicanálise. Seu nome foi criado por Gertrude Stein para se referir a artistas presentes na França nos anos finais da Primeira Guerra Mundial, fazendo de Paris seu centro de atividades literárias nos anos 20.';
+        geracao = 'Conhecida como a <strong>Geração Perdida</strong> (nascidos entre 1883 e 1900), sua geração nasceu no período da construção da Torre Eiffel e do surgimento da psicanálise. Seu nome foi criado por Gertrude Stein para se referir a artistas presentes na França nos anos finais da Primeira Guerra Mundial, fazendo de Paris seu centro de atividades literárias nos anos 20.';
         img.setAttribute('src', 'img/tower.jpg');
         
     }else if(ano >=1901 && ano <=1924 ){
