@@ -9,11 +9,11 @@
 
 * Eu queria manter o mesmo background para a página "Saiba mais", mas o "linear-gradient" não era apropriado para dar destaque ao texto. Resolvi então criar outra folha de estilo como novas instruções e funcionou.
 
-*_I wanted to keep the same background image to the page "Saiba mais" (learn more), but the linear-gradient was not appropriate for readability. Then I decided to create another style sheet with new instructions and it worked._
+* _I wanted to keep the same background image to the page "Saiba mais" (learn more), but the linear-gradient was not appropriate for readability. Then I decided to create another style sheet with new instructions and it worked._
 
 * Eu havia adicionado o ícone do GitHub no footer, mas o WAVE (web accessibility evaluation tool) sinalizou a falta de um texto para o link por trás do ícone. Foi então que resolvi acrescentar "GitHub:" antes do ícone.
 
-*_I had added the GitHub icon on the footer, but WAVE (web accessibility evaluation tool) signalized the lack of a text for the link embeded in the icon. Then I decided to add "GitHub:" before the icon._
+* _I had added the GitHub icon on the footer, but WAVE (web accessibility evaluation tool) signalized the lack of a text for the link embeded in the icon. Then I decided to add "GitHub:" before the icon._
 
 ## Algumas lições que aprendi / Some lessons I learned
 
